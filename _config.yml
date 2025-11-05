@@ -1,5 +1,5 @@
 title: "Rejin Karki Portfolio"
-theme: jekyll-theme-modernist
+remote_theme: layzthelazy/tokyo-jekyll-theme
 markdown: kramdown
 plugins:
   - jekyll-feed
