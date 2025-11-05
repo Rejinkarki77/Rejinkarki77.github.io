@@ -3,104 +3,139 @@ layout: default
 title: Home
 ---
 
-# Welcome to My Portfolio
+<style>
+/* ===== Portfolio Design Enhancements ===== */
+.hero {
+  background: linear-gradient(135deg, #007bff 0%, #00c6ff 100%);
+  color: white;
+  padding: 4rem 2rem;
+  border-radius: 12px;
+  text-align: center;
+}
 
-Hello! I'm **Rejin Karki**, an aspiring IT professional currently pursuing a **Bachelor’s in Business Information Systems** at **Dublin Business School**. I’m passionate about **data analytics**, **web development**, and **business intelligence** — turning data into meaningful insights and building digital solutions that enhance productivity and collaboration.
+.section {
+  background: #fff;
+  margin: 2rem 0;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
 
----
+.section:hover {
+  transform: translateY(-5px);
+}
 
-## 🎯 Summary
+h1, h2, h3, h4 {
+  color: #003366;
+}
 
-I’m a dedicated IT and data enthusiast with practical experience in **networking**, **databases**, and **web development**. I have hands-on knowledge in troubleshooting technical issues, deploying applications, and managing collaborative tools like **SharePoint**. With strong communication and leadership skills, I aim to deliver efficient, secure, and user-friendly IT solutions.
+button, a.button {
+  background: #007bff;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
 
----
+button:hover, a.button:hover {
+  background: #0056b3;
+}
 
-## 💻 Technical Skills
+ul li::marker {
+  color: #007bff;
+}
 
-**Programming & Web Development:** Python, HTML, CSS, MySQL  
-**Database & Networking:** DBMS, SQL Server, Networking  
-**Data Analytics & Visualization:** Power BI, Excel  
-**Tools & Platforms:** Excel, SharePoint  
-**Operating Systems:** Windows, macOS  
-**Soft Skills:** Communication, Leadership, Team Collaboration
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 3rem;
+}
+</style>
 
----
+<div class="hero">
+  <h1>Welcome to My Portfolio</h1>
+  <p>Hello! I'm <strong>Rejin Karki</strong>, an aspiring IT professional passionate about <strong>data analytics</strong> and <strong>visualization</strong>.</p>
+  <p>This site showcases my <em>projects, skills, and academic journey</em> as I explore the intersection of business and technology.</p>
+  <a href="#projects" class="button">View My Projects</a>
+</div>
 
-## 🎓 Education
+<div class="section">
+<h2>🎯 Summary</h2>
+<p>I'm currently pursuing a <strong>Bachelor’s in Business Information Systems</strong> at <em>Dublin Business School</em>. My experience spans <strong>networking, databases, and web development</strong>, with strong foundations in <strong>data visualization</strong> and <strong>analytics</strong> using Power BI and Excel.</p>
+<p>With excellent communication, problem-solving, and leadership skills, I aim to deliver efficient, secure, and user-friendly IT solutions.</p>
+</div>
 
-**Bachelors in Business Information Systems**  
-_Dublin Business School, Dublin, Ireland_  
-**Jan 2024 – Present**
+<div class="section">
+<h2>💻 Technical Skills</h2>
+<ul>
+  <li><strong>Programming & Web:</strong> Python, HTML, CSS, MySQL</li>
+  <li><strong>Database & Networking:</strong> DBMS, SQL Server, Networking</li>
+  <li><strong>Data Tools:</strong> Power BI, Excel</li>
+  <li><strong>Platforms:</strong> SharePoint, Excel</li>
+  <li><strong>OS:</strong> Windows, macOS</li>
+  <li><strong>Soft Skills:</strong> Communication, Leadership, Team Collaboration</li>
+</ul>
+</div>
 
----
+<div class="section">
+<h2>🎓 Education</h2>
+<p><strong>Bachelors in Business Information Systems</strong><br>
+<em>Dublin Business School, Dublin, Ireland</em><br>
+<small>Jan 2024 – Present</small></p>
+</div>
 
-## 🧠 Certifications
+<div class="section">
+<h2>🏅 Certifications</h2>
+<ul>
+  <li>Graphics Designing & Video Editing – Impact Education Hub, Nepal</li>
+  <li>Health & Safety Certificate – SPAR, Ireland</li>
+  <li>C++ – IBM</li>
+</ul>
+</div>
 
-- Graphics Designing & Video Editing – Impact Education Hub, Nepal  
-- Health & Safety Certificate – SPAR, Ireland  
-- C++ – IBM
+<div class="section" id="projects">
+<h2>🧩 Featured Projects</h2>
+<div style="display:grid; gap:1.5rem; grid-template-columns:repeat(auto-fit,minmax(280px,1fr));">
+  <div class="project-card section">
+    <h3>Puspa Beauty Parlour Website (2024)</h3>
+    <p>Designed and deployed a responsive website using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>MySQL</strong>. Improved usability and client reach with a mobile-friendly interface.</p>
+  </div>
+  <div class="project-card section">
+    <h3>Database Management Project (2024)</h3>
+    <p>Developed and optimized a <strong>MySQL server</strong> for academic use, ensuring data integrity and compliance with design standards.</p>
+  </div>
+  <div class="project-card section">
+    <h3>SharePoint & Deployment Project</h3>
+    <p>Configured SharePoint sites, managed permissions, and supported deployment of applications while following security and GxP standards.</p>
+  </div>
+</div>
+</div>
 
----
+<div class="section">
+<h2>🌍 Leadership & Activities</h2>
+<ul>
+  <li><strong>Executive Member</strong> – NRNA Ireland (2025–2027)</li>
+  <li>Community event coordination and organizational support</li>
+  <li>District-level basketball player (Nepal) & player for DBS College</li>
+</ul>
+</div>
 
-## 💼 Professional Experience
+<div class="section">
+<h2>📬 Contact</h2>
+<p>Feel free to connect with me for collaborations, internships, or opportunities in IT and data analytics.</p>
+<ul>
+  <li><strong>Email:</strong> <a href="mailto:rejinkarki28@gmail.com">rejinkarki28@gmail.com</a></li>
+  <li><strong>Phone:</strong> +353 83 3431181</li>
+  <li><strong>Location:</strong> Lucan, Co. Dublin, Ireland</li>
+  <li><strong>GitHub:</strong> <a href="https://github.com/yourusername">github.com/yourusername</a></li>
+  <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></li>
+</ul>
+<a href="mailto:rejinkarki28@gmail.com" class="button">Send a Message</a>
+</div>
 
-**IT Project Work (Academic & Practical Experience)**  
-- Assisted in testing and deploying applications on office and production networks, ensuring adherence to GxP and security standards.  
-- Created and managed SharePoint resources (sites, libraries, lists, and groups) to enhance collaboration.  
-- Acted as escalation point for technical issues, using diagnostic tools to resolve system faults.  
-- Maintained accurate records of service requests and incidents in line with compliance policies.
-
----
-
-## 🧩 Projects
-
-### **Puspa Beauty Parlour Website (2024)**
-- Designed and deployed a responsive website using **HTML**, **CSS**, and **MySQL**.  
-- Improved usability and client reach by developing a mobile-friendly interface.  
-- Successfully met all project objectives and deadlines.
-
-### **Database Management Project (2024)**
-- Built and managed a **MySQL server** for academic use cases.  
-- Optimized queries and maintained data integrity.  
-- Ensured compliance with database design standards.
-
-### **IT Project Work — SharePoint & Deployment**
-- Supported deployment of applications and system updates.  
-- Configured SharePoint sites, libraries, and permissions to support internal communication.
-
----
-
-## 🌍 Leadership & Extracurricular Activities
-
-- **Executive Member**, NRNA Ireland (2025–2027) — Active in community leadership, event coordination, and organizational support.  
-- **Basketball Player** — Represented at district level in Nepal and for **DBS College** in Ireland.
-
----
-
-## 🌐 About Me
-
-I enjoy solving data-driven problems and continuously learning new technologies in analytics, web development, and cloud solutions. My goal is to apply these skills to real-world business problems and help organizations make data-informed decisions.
-
-Learn more [about me](about) or view my [projects](projects).
-
----
-
-## 📬 Contact
-
-- **Email:** [rejinkarki28@gmail.com](mailto:rejinkarki28@gmail.com)  
-- **Phone:** +353 83 3431181  
-- **Location:** Lucan, Co. Dublin, Ireland  
-- **GitHub:** [github.com/yourusername](https://github.com/yourusername)  
-- **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-
----
-
-### Quick Links
-
-- [About Me](about)  
-- [My Projects](projects)  
-- [GitHub Profile](https://github.com/yourusername)
-
----
-
-*Last updated: November 2025*
+<div class="footer">
+  <p>© 2025 Rejin Karki · Designed with ❤️ using Jekyll & Markdown</p>
+</div>
