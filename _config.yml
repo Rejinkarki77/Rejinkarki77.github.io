@@ -1,7 +1,3 @@
 title: "Rejin Karki Portfolio"
-description: "Personal portfolio and projects by Rejin Karki."
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-
-plugins:
-  - jekyll-feed
-  - jekyll-include-cache
+description: "Personal portfolio website of Rejin Karki."
+remote_theme: chesterhow/curate
