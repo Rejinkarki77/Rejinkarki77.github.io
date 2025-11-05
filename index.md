@@ -5,7 +5,7 @@ title: Home
 
 # Welcome to My Portfolio
 
-Hello! I'm **[Your Name]**, a student passionate about data analytics and visualization.
+Hello! I'm **Rejin Karki**, a student passionate about data analytics and visualization.
 
 This portfolio showcases my projects and assignments, including data analysis, PowerBI dashboards, and other work.
 
