@@ -1,6 +1,82 @@
 title: "Rejin Karki Portfolio"
-theme:theme: Tokyo Jekyll Portfolio Theme
+name: "Rejin Karki"
+description: "IT professional and Business Information Systems student passionate about data analytics, web development, and business intelligence."
+url: "https://yourusername.github.io"   # Replace with your GitHub Pages URL
+baseurl: "/rejin-portfolio"             # If your repo name is 'rejin-portfolio'. If it's your username.github.io, leave blank
 
-markdown: kramdown
+# Theme settings
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
+
+# Author information
+author:
+  name: "Rejin Karki"
+  avatar: "/assets/images/profile.jpg"   # Add your image here later
+  bio: "Business Information Systems student at Dublin Business School. Interested in IT, data analytics, and web development."
+  location: "Lucan, Co. Dublin, Ireland"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:rejinkarki28@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/yourusername"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/yourprofile"
+
+# Navigation
+nav:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
+  - title: "Contact"
+    url: /contact/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+      author_profile: true
+
+# Social settings
+social:
+  type: "Person"
+  name: "Rejin Karki"
+  links:
+    - "https://github.com/yourusername"
+    - "https://linkedin.com/in/yourprofile"
+
+# Skin (color scheme)
+minimal_mistakes_skin: "air"   # Options: air, default, dark, dirt, mint, neon, sunrise
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle
+  - vendor/cache
+  - vendor/gems
+  - vendor/ruby
