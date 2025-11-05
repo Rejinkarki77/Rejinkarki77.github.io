@@ -1,5 +1,5 @@
 title: "Rejin Karki Portfolio"
-theme: minima
+theme: jekyll-theme-modernist
 markdown: kramdown
 plugins:
   - jekyll-feed
