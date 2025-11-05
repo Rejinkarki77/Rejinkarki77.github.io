@@ -19,7 +19,7 @@ Check out my [Projects](projects) page to see my work, including:
 
 ## About Me
 
-I'm currently studying [Your Program] at [Your School]. I'm interested in data analytics, business intelligence, and using data to solve real-world problems.
+I'm currently studying Business Information System at Dublin Busines School. I'm interested in data analytics, business intelligence, and using data to solve real-world problems.
 
 Learn more [about me](about) or view my [projects](projects).
 
