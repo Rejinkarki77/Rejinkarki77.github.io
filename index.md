@@ -137,5 +137,5 @@ ul li::marker {
 </div>
 
 <div class="footer">
-  <p>© 2025 Rejin Karki · Designed with ❤️ using Jekyll & Markdown</p>
+  <p>© 2025 Rejin Karki · </p>
 </div>
